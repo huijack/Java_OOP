@@ -31,6 +31,7 @@ public class Main {
 
          */
 
+        /*
         // Overloaded constructors = Allow a class to have multiple constructors
         //                           with different parameter lists
         //                           Enable objects to be initialized in different ways
@@ -98,5 +99,38 @@ public class Main {
         Friend.showFriends();
 
          */
+
+        /*
+        Dog dog = new Dog();
+        Cat cat = new Cat();
+        Plant plant = new Plant();
+
+        // Inherit from parent class
+        dog.eat();
+        cat.eat();
+
+        // Methods from child class
+        dog.speak();
+        cat.speak();
+
+        // Inherits from grandparent class
+        System.out.println(dog.isAlive);
+        System.out.println(cat.isAlive);
+        System.out.println(plant.isAlive);
+
+        plant.photosynthesize();
+
+         */
+
+        Person person = new Person("Tom", "Riddle");
+        Student_v2 student = new Student_v2("Harry", "Potter", 4.0);
+        Employee employee = new Employee("Ron", "Weasley", 50000);
+
+        person.showName();
+        student.showName();
+
+        student.showGPA();
+
+        employee.showSalary();
     }
 }

@@ -122,6 +122,7 @@ public class Main {
 
          */
 
+        /*
         Person person = new Person("Tom", "Riddle");
         Student_v2 student = new Student_v2("Harry", "Potter", 4.0);
         Employee employee = new Employee("Ron", "Weasley", 50000);
@@ -132,5 +133,28 @@ public class Main {
         student.showGPA();
 
         employee.showSalary();
+
+         */
+
+        /*
+        Dog_v2 dog = new Dog_v2();
+        Cat_v2 cat = new Cat_v2();
+        Fish fish = new Fish();
+
+        dog.move();
+        cat.move();
+        fish.move();
+
+         */
+
+        Object object = new Object();
+        System.out.println(object); // In normal circumstances, this will return object memory address
+
+        Car_v3 car1 = new Car_v3("Ford", "Mustang", 1964, "Red");
+        Car_v3 car2 = new Car_v3("Tesla", "Model S", 2018, "White");
+
+        System.out.println(car1); // Able to display strings because toString method is overriden
+        System.out.println(car2);
+
     }
 }

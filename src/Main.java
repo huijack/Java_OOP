@@ -174,6 +174,7 @@ public class Main {
 
          */
 
+        /*
         Rabbit rabbit = new Rabbit();
         Hawk hawk = new Hawk();
         Fish_v2 fish = new Fish_v2();
@@ -183,5 +184,19 @@ public class Main {
 
         fish.flee();
         fish.hunt();
+
+         */
+
+        Car_v4 car = new Car_v4();
+        Bike bike = new Bike();
+        Boat boat = new Boat();
+
+        // Car_v4[] cars = {car, bike, boat}; // Will show an error since object types are not same
+
+        Vehicle[] vehicles = {car, bike, boat};
+
+        for (Vehicle vehicle : vehicles) {
+            vehicle.go();
+        }
     }
 }

@@ -147,6 +147,7 @@ public class Main {
 
          */
 
+        /*
         Object object = new Object();
         System.out.println(object); // In normal circumstances, this will return object memory address
 
@@ -156,5 +157,31 @@ public class Main {
         System.out.println(car1); // Able to display strings because toString method is overriden
         System.out.println(car2);
 
+         */
+
+        /*
+        Circle circle = new Circle(4);
+        Triangle triangle = new Triangle(2, 4);
+        Rectangle rectangle = new Rectangle(4, 2);
+
+        circle.display();
+        triangle.display();
+        rectangle.display();
+
+        System.out.printf("The area of circle is %.2f \n", circle.area());
+        System.out.printf("The area of triangle is %.2f \n", triangle.area());
+        System.out.printf("The area of rectangle is %.2f \n", rectangle.area());
+
+         */
+
+        Rabbit rabbit = new Rabbit();
+        Hawk hawk = new Hawk();
+        Fish_v2 fish = new Fish_v2();
+
+        rabbit.flee();
+        hawk.hunt();
+
+        fish.flee();
+        fish.hunt();
     }
 }

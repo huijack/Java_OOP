@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -187,6 +189,7 @@ public class Main {
 
          */
 
+        /*
         Car_v4 car = new Car_v4();
         Bike bike = new Bike();
         Boat boat = new Boat();
@@ -198,5 +201,66 @@ public class Main {
         for (Vehicle vehicle : vehicles) {
             vehicle.go();
         }
+
+         */
+
+        /*
+        // Determine objects at runtime (based on user input)
+        Scanner scanner = new Scanner(System.in);
+
+        Animal_v3 animal;
+
+        System.out.print("Would you like a dog or a cat? (1 = dog, 2 = cat): ");
+        int choice = scanner.nextInt();
+
+        if (choice == 1) {
+            animal = new Dog_v3();
+            animal.speak();
+        } else if (choice == 2) {
+            animal = new Cat_v3();
+            animal.speak();
+        }
+
+         */
+
+        /*
+        Car_v5 car = new Car_v5("Honda Civic", "White", 120000);
+
+        // Use getter method to call private attributes
+        System.out.println(car.getColor() + " " + car.getModel() + " " + car.getPrice());
+
+        // Use setter method to write the attributes
+        car.setColor("Black");
+        car.setPrice(5000);
+
+        // car.setPrice(-1); // This will return the error string
+
+        System.out.println(car.getColor() + " " + car.getModel() + " " + car.getPrice());
+
+         */
+
+        /*
+        Book book1 = new Book("The Fellowship of the Ring", 423);
+        Book book2 = new Book("The Two Towers", 352);
+        Book book3 = new Book("The Return of the King", 416);
+
+        Book[] books = {book1, book2, book3};
+
+        Library library = new Library("NYC Public Library", 1897, books);
+        library.displayInfo();
+
+         */
+
+        Movie movie1 = new Movie("The Godfather", 1972);
+        movie1.setRating(3.5);
+        Movie movie2 = new Movie("The Dark Knight", 2008);
+        movie2.setRating(5.0);
+        Movie movie3 = new Movie("The Lord of the Rings: The Return of the King", 2003);
+        movie3.setRating(4.5);
+
+        Movie[] movies = {movie1, movie2, movie3};
+
+        StreamingPlatform platform = new StreamingPlatform("Netflix", movies);
+        platform.showInfo();
     }
 }

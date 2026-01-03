@@ -251,6 +251,7 @@ public class Main {
 
          */
 
+        /*
         Movie movie1 = new Movie("The Godfather", 1972);
         movie1.setRating(3.5);
         Movie movie2 = new Movie("The Dark Knight", 2008);
@@ -262,5 +263,18 @@ public class Main {
 
         StreamingPlatform platform = new StreamingPlatform("Netflix", movies);
         platform.showInfo();
+
+         */
+
+        /*
+        Car_v6 car = new Car_v6("Toyota Supra", 2025, "V8");
+
+        System.out.println(car.getModel());
+        System.out.println(car.getYear());
+        System.out.println(car.getEngineType());
+
+        car.start();
+
+         */
     }
 }

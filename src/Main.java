@@ -277,6 +277,6 @@ public class Main {
 
          */
 
-        WriteFile.writeFile();
+        ReadFile.readFile();
     }
 }
